@@ -34,6 +34,7 @@
 	</core:forEach>
 </table>
 <br/>
+<a href="addMember.jsp">Add a Member</a>
 <a href="index.jsp">Back</a>
 </body>
 </html>

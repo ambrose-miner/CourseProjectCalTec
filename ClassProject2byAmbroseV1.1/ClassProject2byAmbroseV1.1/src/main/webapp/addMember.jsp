@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+
 </head>
 <body>
 
@@ -13,11 +13,11 @@
 	<form action = "memberController" method = "post"> 
 		<input type="hidden" name="userAction" value="addMember"/>
 		<label>Member First Name</label>
-		<input type="text" name="F_name"/><br/>
+		<input type="text" name="f_name"/><br/>
 		<label>Member Last Name</label>
-		<input type="text" name="L_name"/><br/>
+		<input type="text" name="l_name"/><br/>
 		<label>Member email</label>
-		<input type="text" name="Email"/><br/>
+		<input type="text" name="email"/><br/>
 		<input type=submit value= "Create new Member"/>
 	</form>
 	<a href="viewAllMember.jsp">View Members</a>

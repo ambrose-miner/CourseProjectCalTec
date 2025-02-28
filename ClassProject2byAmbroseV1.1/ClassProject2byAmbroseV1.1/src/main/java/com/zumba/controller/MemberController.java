@@ -65,7 +65,7 @@ public class MemberController extends HttpServlet {
 				nm.setL_name(memberL_name);
 				nm.setEmail(memberEmail);
 				ms.addNewMember(nm);
-				
+				doGet(request, response);
 				
 			}else if (userAction .equals("deleteMember")) {
 				Member rm = new Member();

@@ -36,6 +36,7 @@
 	</core:forEach>
 </table>
 <br/>
+<a href="addEvent.jsp">Schedule an Event</a>
 <a href="index.jsp">Back</a>
 </body>
 </html>
